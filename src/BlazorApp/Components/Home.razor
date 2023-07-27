@@ -3,17 +3,23 @@
     {
         <img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
     }
-    <div style="position: absolute; top: 30%; left: 2rem;">
+   
     @if (property is null)
     {
         <p><em>Loading...</em></p>
     }
     else
     {
-        <h1>@property.Name</h1>
-        <h2>@property.Title</h2>
+         <div style="position: absolute; top: 5%; left: 2rem;">
+            <h1 style="background: -webkit-linear-gradient(#010378, #1334b76d); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">@property.CompanyName</h1>
+            <h2 style="background: -webkit-linear-gradient(#090000, #5b8fa9); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">@property.slogan</h2>
+        </div>
+        <div style="position: absolute; bottom: 10%; right: 2rem;">
+            <h1 style="font-size: 4rem">@property.Name</h1>
+            <h2 style="font-size: 1rem">@property.Title</h2>
+        </div>
     }
-    </div>
+   
     <div style="position: absolute; bottom: 8rem; left: 50%;">
         <a href="#about" target="_top">
             <img src="images/down-arrow.svg" style="height: 3rem; width: 3rem;" alt="scroll down" />

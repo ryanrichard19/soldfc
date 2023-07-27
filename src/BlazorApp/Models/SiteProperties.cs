@@ -2,6 +2,8 @@ namespace BlazorApp.Models;
 
 public class SiteProperties
 {
+    public string CompanyName { get; set; } = string.Empty;
+    public string slogan { get; set; } = string.Empty;
     public string Name { get; set; } = string.Empty;
     public string Title { get; set; } = string.Empty;
     public string Email { get; set; } = string.Empty;
