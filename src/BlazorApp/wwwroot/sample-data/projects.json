@@ -1,22 +1,8 @@
 [
   {
-    "title": "10 Things To Know About Azure Static Web Apps 🎉",
-    "description": "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    "url": "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
-  },
-  {
-    "title": "Web Development for Beginners",
-    "description": "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    "url": "https://github.com/microsoft/web-dev-for-beginners"
-  },
-  {
-    "title": "My Resume Site",
-    "description": "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    "url": "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
-  },
-  {
-    "title": "GitHub Codespaces and github.dev",
-    "description": "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    "url": "https://www.youtube.com/watch?v=c3hHhRME_XI"
+    "title": "Custom Integration API for POS Systems at TaxonomyCo",
+    "description": "Designed and implemented a custom integration API service that interfaced between Gaap's Point of Sale (POS) backend systems and TaxonomyCo's platform. This service facilitated the extraction and upload of granular alcohol transaction data, enabling the generation of custom sales reports with breakdowns by alcohol types, brand names, and suppliers. The data provided by the system was used by suppliers such as Diageo and Distell to identify highest sales of certain products by staff, and to track incentives during specific campaigns or promotional periods. The entire system was built and deployed using Azure Cloud Services, delivering valuable sales and staff performance insights for both TaxonomyCo and their supplier partners.",
+    "url": "https://www.taxonomyco.com/"
   }
+ 
 ]
